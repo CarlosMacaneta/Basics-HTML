@@ -1,0 +1,55 @@
+&nbsp -- spaco
+<br/> -- break row
+<wbr/> -- word break(tambem e util para endereco de sites)
+&shy -- short hyfen -- quebra de linha com infenizacao
+
+----------uso de simbolos especiais-----------------------
+&lt; - less than
+&gt; - greater than
+&le; - less or equal than
+&ge; - greater or equal than
+
+&pound; - libra
+&yen; - yen
+&euro;
+
+&copy; - copyright
+&reg; -
+&trade; - trade mark
+
+&permil; -- permilage
+&sum; 
+&infin;
+&times; -- *
+&plussmn; -- plus or less
+&oplus; -- circuference plus
+&radic; sqrt
+&ne - non equal
+&delta/&Delta
+&Lambda
+&omega
+&phi
+
+&larr; -- left arrow
+&rarr; -- right arrow
+&uarr; -- up arrow
+&darr; -- down arrow
+&harr; -- 
+
+&spades;
+&clubs;
+&hearts;
+&diams
+
+--------------------------css----------------------------
+
+<del></del> -- strike
+<span></span> -- pode ser usado para formatar pequenos trechos de texto
+<sup></sup> -- gera resultado de sobreescrito
+<sub></sup>
+<code></code> -- serve para mostrar codigos
+<pre></pre> -- pre-formatado
+
+---------------------delimitar imagens------------------------
+<figure></figure> -- para imagens que fazer parte de um conteudo
+figcapiton></figcapion> -- cria legenda para imagem
