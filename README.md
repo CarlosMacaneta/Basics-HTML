@@ -1,2 +1,2 @@
 # Basics-HTML
-Basic introduction of HTML5
+Basic introduction of HTML5 & CSS
