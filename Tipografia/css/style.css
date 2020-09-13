@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+h1{
+    /*cor da letra*/
+    color: black;
+
+    /*espacamento entre as letras*/
+    letter-spacing: 0px;
+
+    /*capitaliza, uppercase, lowercaser*/
+    text-transform: capitalize;
+
+    /*adiconando sombra do titulo
+     * primeiro valor e a qtd de sombra na horizontal
+     * sengundo valor e a qtd se sombra na vertical
+     * terceiro valor e a qtd de desfoque
+     * por fim colocamos a cor
+    */
+    text-shadow: 2px 2px 0px gray;
+
+    /*adiconando largura do titulo*/
+    width: 650px;
+}
+
+p{
+    /**/
+    text-indent: 20px;
+
+    /*tamanho da font*/
+    font-size: 12pt;
+
+    /*tipo de font*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    /*alinhamento do texto*/
+    text-align: justify;
+
+    /*adiconando largura do texto*/
+    width: 650px;
+}
