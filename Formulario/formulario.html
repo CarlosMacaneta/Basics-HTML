@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--O atributo action e o destino ou pagina que vai processar o formulario
+        method refere a forma que os dados serao enviados.
+        -> o method get envia as informacoes de forma que o navegador consiga mostrar
+        no endereco da pagina(url)
+        -> o method post envia as informacoes em background ou seja de forma escondida
+         da pagina para que somente a linguagem de programacao da action consiga ver essas informacoes.
+
+        Os formularios tambem podem conter classes, id como qualquer outro elemento html. 
+    -->
+    <form method="POST" action="">
+        <p>
+            <!--O atributo for deve conter o valor do id do input-->
+            <label for="nome">Nome:</label>
+            <input type="text" name="txtnome" id="nome" placeholder="Digite seu nome"/>
+        </p>
+
+        <p>
+            <label for="rdselect">Voce gostou do site?</label>
+        </p>
+        <p>
+            <input type="radio" name="rdselect" id="yes" value="sim" checked/><label for="yes">Sim</label>
+            <input type="radio" name="rdselect" id="no" value="nao"/><label for="no">Nao</label>
+        </p>
+
+        <p><label for="linguaguem">Voce quer aprender mais sobre:</label></p>
+        <p>
+            <input type="checkbox" name="html" id="cbhtml">HTML
+            <input type="checkbox" name="css" id="cbcss">CSS
+        </p>
+
+        <p>
+            <textarea name="msg" id="msgemail" cols="30" rows="256"></textarea>
+        </p>
+
+        <p>
+            <!--adicionando botao de envio-->
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
