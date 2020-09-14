@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body{
+    font-family: sans-serif;
+}
+
+div.linha{
+    width: 960px;
+    margin: 0px auto;
+    overflow: auto;
+    padding: 5px 0px;
+}
+
+div.coluna{
+    padding: 0px 10px;
+    float: left;
+}
+
+div.col1{
+    width: 60px;
+}
+
+div.col2{
+    width: 140px; 
+}
+
+div.col3{
+    width: 220px; 
+}
+
+div.col4{
+    width: 300px; 
+}
+
+div.col5{
+    width: 380px; 
+}
+
+div.col6{
+    width: 460px; 
+}
+
+div.col7{
+    width: 540px; 
+}
+
+div.col8{
+    width: 620px; 
+}
+
+div.col9{
+    width: 700px; 
+}
+
+div.col10{
+    width: 780px; 
+}
+
+div.col11{
+    width: 860px; 
+}
+
+div.col12{
+    width: 940px; 
+}
