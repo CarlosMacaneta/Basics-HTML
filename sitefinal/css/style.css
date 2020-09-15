@@ -2,8 +2,20 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    color: #333;
 }
 
+a:link, a:active, a:visited{
+    color: #315e8a;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*CSS do gridlayout*/
 div.linha{
     width: 960px;
     margin: 0px auto;
@@ -62,4 +74,147 @@ div.col11{
 
 div.col12{
     width: 940px; 
+}
+
+/*estilos reutilizaveis*/
+ul.sem-padding{
+    padding: 0 !important;
+}
+
+ul.sem-margin{
+    margin: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: black;
+    font-weight: 500;
+    margin: 15px 0px 10px 0px;
+}
+
+ul li, ol li{
+    margin-bottom: 5px;
+}
+
+ul.inline li, ol.inline li{
+    display: inline;
+    margin-right: 15px;
+}
+
+/*removendo a margem do ultimo elemento da lista*/
+ul.inline li:last-child, ol.inline li:last-child{
+    margin-right: 0px;
+}
+
+ul.sem-marcador, ol.sem-marcador{
+    list-style: none;
+}
+
+a.botao, input.botao{
+    background: #1f3c58;
+    padding:  5px 10px;
+    border-radius: 3px;
+    color: #ebebeb;
+    cursor: pointer;
+    margin: 5px 0px;
+    display: inline-block;
+    border: none;
+}
+
+a.botao:hover, input.botao:hover{
+    background-color: #315e8a;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*layout do site*/
+div.header{
+    background-color: #dee3e6;
+}
+
+h1.logo{
+    font-weight: 300;
+    color: #315e8a;
+    letter-spacing: -2px;
+}
+
+div.conteudo-extra{
+    background-color: #f1f2ea;
+}
+
+div.footer{
+    background-color: #1f3c58;
+    color: #ebebeb;
+    padding: 20px 0px;
+    text-align: center;
+    font-weight: 100;
+}
+
+ul.menu{
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 25px;
+}
+
+ul.menu li a{
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+ul.menu li a:hover{
+    text-decoration: none;
+    background-color: #1f3c58;
+    color: #ebebeb;
+}
+
+ul.noticias li{
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+ul.noticias li img{
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+    float: left;
+}
+
+ul.noticias li h4{
+    margin: -2px 0px 5px 0px;
+    font-weight: 500;
+}
+
+ul.noticias p{
+    margin: 5px 0;
+    font-weight: 300;
+}
+
+ul.noticias li p a{
+    font-weight: 500;
+}
+
+div.contacto label{
+    display: block;
+    font-size: 13pt;
+    font-weight: 300;
+}
+
+div.contacto input, div.contacto textarea{
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px 2%;
+    width: 96%;
+}
+
+div.contacto textarea{
+    height: 150px;
+}
+
+div.contacto input.botao{
+    width: auto;
 }
