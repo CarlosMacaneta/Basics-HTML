@@ -1,8 +1,13 @@
 @charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Titillium+web);
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
 
 body{
     background-color: #808081;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     text-align: justify;
 }
 
@@ -17,10 +22,27 @@ div#interface{
 }
 
 /*cabecalhos*/
-header#cabecalho{
+header#cabecalho{   
     height: 150px;
     background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
     border-bottom: 1px #606060 solid;
+}
+
+header#cabecalho h1{
+    font-family: "FonteLogo", sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2{
+    font-family: "Corbel", sans-serif;
+    font-size: 15pt;
+    color: #888888;
+    padding: 0px;
+    margin-top: 0px;
 }
 
 header#cabecalho img#icon{
@@ -29,39 +51,16 @@ header#cabecalho img#icon{
     left: 960px;
 }
 
-/*titulos*/
-
-header#cabecalho-artigo h3{
-    margin-top: 0px;
-    font-size: 12pt;
-    color: #606060;
-}
-
-header#cabecalho-artigo h1{
-    font-family: "FonteLogo", sans-serif;
-    font-size: 20pt;
-    color: #606060;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
-header#cabecalho-artigo h2{
-    font-size: 13pt;
-    color: #cecece;
-    background-color: white;
-    margin: 0px;
-}
-
-h3.titulo-direita{
-    text-align: right;
-}
-
 /*menu*/
+nav#menu{
+    display: block;
+}
+
 nav#menu ul{
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 475px;
+    left: 430px;
 }
 
 nav#menu ul li{
@@ -98,6 +97,41 @@ section#corpo {
     padding: 15px;
 }
 
+/*artigos*/
+article#noticia-principal h2{
+    font-size: 13pt;
+    background-color: #dddddd;
+    color: #606060;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h2{
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+/*artigos*/
+header#cabecalho-artigo h3{
+    margin-top: 0px;
+    font-size: 12pt;
+    color: #606060;
+}
+
+header#cabecalho-artigo h3.titulo-direita{
+    text-align: right;
+}
+
+header#cabecalho-artigo h1{
+    font-family: "FonteLogo", sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
 /*imagens*/
 figure.foto-legenda{
     border: 8px #ffffff solid;
@@ -131,6 +165,25 @@ aside#sidebar{
     display: block;
     width: 330px;
     float: right;
+    background-color: #dddddd;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+aside#sidebar h1{
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+
+aside#sidebar h2{
+    background-color: #606060;
+    font-size: 13pt;
+    color: #cecece;
+    padding: 10px;
 }
 
 /*rodape*/
