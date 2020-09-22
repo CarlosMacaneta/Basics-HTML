@@ -97,6 +97,34 @@ section#corpo {
     padding: 15px;
 }
 
+/*formatacao da tabela*/
+table#tabela-spec{
+    background-color: #606060;
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabela-spec td{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+table#tabela-spec td.detalhe{
+    font-weight: 700;
+    text-align: right;
+    background-color: #606060;
+    color: #ffffff;
+    border: 0px solid #606060;
+}
+
+table#tabela-spec td.detalhe-info{
+    background-color: #cecece;
+    color: #000000;
+    border-left: 0px;
+}
+
 /*artigos*/
 article#noticia-principal h2{
     font-size: 13pt;
