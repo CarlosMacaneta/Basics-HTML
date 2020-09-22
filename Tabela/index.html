@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>    
+    <table id="tabela-pessoas">
+        <!--legenda da tabela-->
+        <caption>Lista de pessoas</caption>
+        <!---criando linhas do cabecalho-->
+        <tr>
+            <!---cabecalho/colunas da tabela-->
+            <th scope="col">Nome</th>
+            <th scope="col">Apelido</th>
+            <th scope="col">Idade</th>
+        </tr>
+        <!--fim da linha-->
+
+        <!--criando linha dos dados-->
+        <tr>
+            <td>Carlos</td>
+            <td>Macaneta</td>
+            <td>15</td>
+        </tr>        
+        <!--fim da primeira linha-->
+
+        <!--inicio da segunda liinha-->
+        <tr>
+            <td>Aston</td>
+            <td>Martin</td>
+            <td>30</td>
+        </tr>     
+    </table>
+
+    <table id="tabela-func">
+        <!--legenda da tabela-->
+        <caption>Lista de funcionarios</caption>
+        <!---criando linhas do cabecalho-->
+        <tr>
+            <!---cabecalho/colunas da tabela-->
+            <th scope="col">Id</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Apelido</th>
+            <th scope="col">Idade</th>
+        </tr>
+        <!--fim da linha-->
+
+        <!--criando linha dos dados-->
+        <tr>
+            <td>1</td>
+            <td>Carlos</td>
+            <td>Macaneta</td>
+            <td>15</td>
+        </tr>        
+        <!--fim da primeira linha-->
+
+        <!--inicio da segunda liinha-->
+        <tr>
+            <td>2</td>
+            <td>Aston</td>
+            <td>Martin</td>
+            <td>30</td>
+        </tr>     
+    </table>
+
+    <table id="tabela-celulares">
+        <!--legenda da tabela-->
+        <caption>Lista de celulares</caption>
+
+        <!---CABECALHO-->
+        <thead>
+            <tr>
+                <!---colunas da tabela-->
+                <th scope="col">Marca</th>
+                <th scope="col">Referencia</th>
+                <th scope="col">Quantidade</th>
+            </tr>
+        </thead>     
+        <!--FIM DO CABECALHO-->
+
+        <!--CORPO DA TABELA-->
+        <tbody>
+            <!--inicio da primeira linha(PRODUTOS SAMSUNG)-->
+            <tr>
+                <td rowspan="3">Samsung</td>
+                <td>Note 8</td> 
+                <td>100</td>
+            </tr> 
+            <tr>
+                <td>S20</td>
+                <td rowspan="2">200</td>
+            </tr>      
+            <tr>
+                <td>Note 20</td>
+            </tr>  
+            <!--fim da primeira linha(PRODUTOS SAMSUNG)-->
+
+            <!--inicio da segunda linha(PRODUTOS IPHONE)-->
+            <tr>
+                <td rowspan="3">Iphone</td>
+                <td>X pro max</td>  
+                <td rowspan="3">500</td>
+            </tr> 
+            <tr><td>11 pro</td></tr> 
+            <tr><td>11pro max</td></tr> 
+            <!--fim da segunda linha(PRODUTOS IPHONE)-->
+        </tbody>
+        <!--FIM DO CORPO DA TABELA-->
+
+        <!--RODAPE DA TABELA-->
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>800</td>
+            </tr>     
+        </tfoot>
+        <!--FIM DO RODAPE-->
+    </table>
+</body>
+</html>
