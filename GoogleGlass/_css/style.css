@@ -146,7 +146,7 @@ header#cabecalho-artigo h2{
     margin: 0px;
 }
 
-/*artigos*/
+/* cabecalho-artigos*/
 header#cabecalho-artigo h3{
     margin-top: 0px;
     font-size: 12pt;
@@ -238,4 +238,59 @@ footer#rodape p a{
 
 footer#rodape p a:hover{
     text-decoration: underline;
+}
+
+/*======ESPECIFICACOES======*/
+
+/*artigos*/
+article#artigo-specs{
+    text-indent: 20px;
+    margin-right: 20px;
+}
+
+article#artigo-specs p{
+    margin: 50px -5px 0px 20px;
+}
+
+article#artigo-specs h2{
+    font-size: 13pt;
+    background-color: #dddddd;
+    color: #606060;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-specs h2{
+    font-size: 12pt;
+    color: #cecece;
+    background-color: #ffffff;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+/* cabecalho-artigos*/
+header#cabecalho-specs h3{
+    margin-top: 10px;
+    font-size: 12pt;
+    color: #cecece;
+}
+
+header#cabecalho-specs h3.titulo-direita{
+    text-align: right;
+    font-size: 10pt;
+    padding: 10px;
+}
+
+header#cabecalho-specs h1{
+    font-family: "FonteLogo", sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+img#oculos {
+    position: relative;
+    left: 50px;
+    top: 0px;
 }
