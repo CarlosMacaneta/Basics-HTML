@@ -139,9 +139,10 @@ article#noticia-principal h2{
 }
 
 header#cabecalho-artigo h2{
-    font-size: 13pt;
+    font-size: 12pt;
     color: #cecece;
     background-color: #ffffff;
+    padding-left: 0px;
     margin: 0px;
 }
 
@@ -149,11 +150,13 @@ header#cabecalho-artigo h2{
 header#cabecalho-artigo h3{
     margin-top: 0px;
     font-size: 12pt;
-    color: #606060;
+    color: #cecece;
 }
 
 header#cabecalho-artigo h3.titulo-direita{
     text-align: right;
+    font-size: 10pt;
+    padding: 10px;
 }
 
 header#cabecalho-artigo h1{
@@ -199,7 +202,7 @@ aside#sidebar{
     float: right;
     background-color: #dddddd;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
-    padding: 5px;
+    padding: 8px;
     margin-top: 10px;
     border-radius: 2px;
 }
@@ -214,7 +217,7 @@ aside#sidebar h1{
 aside#sidebar h2{
     background-color: #606060;
     font-size: 13pt;
-    color: #cecece;
+    color: #ffffff;
     padding: 10px;
 }
 
