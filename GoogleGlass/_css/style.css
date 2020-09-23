@@ -11,6 +11,10 @@ body{
     text-align: justify;
 }
 
+p{
+    text-indent: 20px;
+}
+
 div#interface{
     background-color: #ffffff;
     width: 900px;
