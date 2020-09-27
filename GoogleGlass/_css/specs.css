@@ -1,4 +1,27 @@
 @charset "UTF-8";
+section#specs-info {
+    width: 900px;
+    margin: auto;
+}
+
+p{
+    top: 0px;
+    font-size: 14px;
+}
+
+img#oculos{
+    width: 420px;
+    margin-right: 30px;
+}
+
+iframe#frame-spec {
+    width: 400px;
+    height: 280px;
+    border: none;
+    overflow: hidden;
+    margin-left: 20px;
+    top: 0;
+}
 
 
 
