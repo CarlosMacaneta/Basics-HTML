@@ -4,25 +4,17 @@ section#specs-info {
     margin: auto;
 }
 
-p{
-    top: 0px;
-    font-size: 14px;
-}
-
-img#oculos{
-    width: 420px;
-    margin-right: 30px;
-}
-
 iframe#frame-spec {
-    width: 400px;
+    width: 380px;
     height: 280px;
     border: none;
-    overflow: hidden;
-    margin-left: 20px;
-    top: 0;
+    overflow: hidden;   
 }
 
+iframe#frame-spec::-webkit-scrollbar {
+    display: none;
+}
+ 
 
 
 
