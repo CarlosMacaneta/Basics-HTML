@@ -100,8 +100,9 @@ section#corpo {
     float: left;
     padding: 15px;
 }
-
+ 
 section#corpo-full{
+    display: block;
     padding: 15px;
 }
 
