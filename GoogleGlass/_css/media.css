@@ -1,5 +1,31 @@
 @charset "UTF-8";
 
+/* multimidia.html*/
+div#radio-tv{
+    width: 900px;
+    height: 580px;
+    margin: auto;
+    background: url('../_imagens/radio-tv.png') no-repeat;
+}
+
+audio#musica{
+    display: block;
+    position: relative;
+    top: 488px;
+    left: 575px;
+    width: 300px;
+}
+
+video#filme{
+    display: block;
+    position: relative;
+    left: 90px;
+    top: 50px;
+    width: 440px;
+    height: 278px;
+    border: none;
+}
+
 /*videos do index.html*/
 video#gps{
     display: block;
