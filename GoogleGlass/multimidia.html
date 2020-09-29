@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="_css/style.css">
+    <link rel="stylesheet" href="_css/media.css">
+</head>
+<script lang="JavaScript" src="_javascript/funcoes.js"></script>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <h1>Google Glass</h1>    
+            <h2>A revolução do Google está chegando</h2>
+
+            <img id="icon" src="_imagens/multimidia.png" alt="icon oculos preto">
+
+            <nav id="menu">
+                <ul>
+                    <li onmouseover="mudarFoto('_imagens/home.png')" onmouseleave="mudarFoto('_imagens/multimidia.png')"><a href="index.html">Home</a></li>
+                    <li onmouseover="mudarFoto('_imagens/especificacoes.png')" onmouseleave="mudarFoto('_imagens/multimidia.png')"><a href="specs.html">Especificações</a></li>
+                    <li onmouseover="mudarFoto('_imagens/multimidia.png')" onmouseleave="mudarFoto('_imagens/multimidia.png')"><a href="multimidia.html">multimidia</a></li>
+                    <li onmouseover="mudarFoto('_imagens/multimidia.png')" onmouseleave="mudarFoto('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+                    <li onmouseover="mudarFoto('_imagens/contato.png')" onmouseleave="mudarFoto('_imagens/multimidia.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="corpo-full">
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">
+                    <h3>Glass > Multimídia</h3>
+                    <h1>Sons e Vídeos</h1>
+                    <h2>por Gustavo Guanabara</h2>
+                    <h3 class="titulo-direita">Atualizado em 01/Maio/2013</h3>
+                </header>
+
+                <p>Áudio e Vídeo</p>
+
+                <div id="radio-tv">
+                    <audio id="musica" controls="true">
+                        <source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg" />
+                        <source src="_media/2009-lovers-carvings-bibio.m4a" type="audio/x-aac"/>
+                        <source src="_media/2009-lovers-carvings-bibio.ogg" type="audio/ogg"/>
+                        Desculpe, mas não foi possível carregar o áudio.
+                    </audio>
+
+                    <video id="filme" poster="_imagens/video-mini03.jpg" controls="true">
+                        <source src="_media/getting-started.mp4" type="video/mp4" />
+                        <source src="_media/getting-started.webm" type="video/Webm"/>
+                        <source src="_media/getting-started.ogv" type="video/ogg"/>
+                        Desculpe, mas não foi possível carregar o vídeo.
+                    </video>
+                </div>
+            </article>
+        </section>
+
+        <footer id="rodape">
+            <p>
+                Copyright &copy; 2020 - by Carlos Macaneta<br/>
+                <a href="https://www.github.com/CarlosMacaneta" target="_blank" rel="noopener noreferrer">GitHub</a> |
+                <a href="https://www.facebook.com/Carlos MJ" target="_blank" rel="noopener noreferrer">Facebook</a> | 
+                <a href="https://www.twitter.com/CarlosMacaneta" target="_blank" rel="noopener noreferrer">Twitter</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
