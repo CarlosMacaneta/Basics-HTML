@@ -101,6 +101,10 @@ section#corpo {
     padding: 15px;
 }
 
+section#corpo-full{
+    padding: 15px;
+}
+
 /*formatacao da tabela*/
 table#tabela-spec{
     background-color: #606060;
