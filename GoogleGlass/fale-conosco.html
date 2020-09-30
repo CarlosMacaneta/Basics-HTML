@@ -36,7 +36,7 @@
                     <h3 class="titulo-direita">Atualizado em 01/Maio/2013</h3>
                 </header>
 
-                <form action="mailto:contato@cursoemvideo.com" method="POST">
+                <form action="mailto:contato@cursoemvideo.com" method="POST" oninput="calcularTotal();">
                     <fieldset id="usuario">
                         <legend>Identificação do Usuário</legend>
                         <p><label for="nome">Nome:</label> <input type="text" name="name" id="nome" placeholder="Nome Completo" /></p>
@@ -89,7 +89,7 @@
                     <fieldset id="mensagem">
                         <legend>Mensagem do Usuário</legend>
                         <p><label for="range_">Grau de Urgência:</label> Min<input type="range" name="range" id="range_" min="0" max="10" step="2"/>Max</p>
-                        <p><label for="msg">Mensagem: </label><br/><textarea name="text" id="msg" cols="45" rows="5" placeholder="Sua mensagem..."></textarea></p>
+                        <p><label for="msg">Mensagem: </label><textarea name="text" id="msg" cols="45" rows="5" placeholder="Sua mensagem..."></textarea></p>
                     </fieldset>
 
                     <fieldset id="pedido">
@@ -97,10 +97,10 @@
 
                         <p><input type="checkbox" name="ped" id="ped_"><label for="ped_">Gostaria de adquirir um Google Glass quando disponível</label></p>
                         <p><label for="colour">Cor:</label> <input type="color" name="color" id="colour"/></p>
-                        <p><label for="qtd_">Quantidade:</label> <input type="number" name="qtd" id="qtd_" min="0" max="9999"/></p>
+                        <p><label for="qtd_">Quantidade:</label> <input type="number" name="qtd" id="qtd_" min="0" max="9999" value="0"/></p>
                         <p><label for="cash">Preço Total: R$</label> <input type="text" name="money" id="cash" readonly placeholder="Total a pagar"/></p>
                     </fieldset>
-                    <p><input type="image" src="_imagens/botao-enviar.png" alt="enviar pedido" /></p>
+                    <p><input type="image" name="enviar" src="_imagens/botao-enviar.png" alt="enviar pedido" /></p>
                 </form>
             </article>
         </section>
