@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+    font-size: 13pt;
+    font-weight: normal;
+}
+
+div#interface{
+    display: block;
+    width: 745px;
+    height: 624px;
+    margin: auto;
+}
+
+div#logo{
+    width: 745px;
+    height: 238px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+div#logo div#icon{
+    text-align: center;
+    margin-top: 99px;
+}
+
+div#logo div#icon h1{
+    font-size: 72px;
+    font-weight: normal;
+}
+
+div#search{
+    display: block;
+    width: 561px;
+    height: 44px;
+    margin: 0 auto;
+    border-radius: 25px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, .4);
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border: 0;
+}
+
+div#search div#search-wrapper{
+    display: block;
+    width: 561px;
+    max-width: 584px;
+    height: 44px;
+    margin: 0 auto;
+}
+
+div#search-icon{
+    width: 24px;
+    height: 44px;
+    margin-left: 25px;
+    padding-right: 0px;
+}
+
+div#search-icon img{
+    width: 24px;
+    height: 44px;
+}
+
+input[type="search"]{ 
+    width: 431px;
+    height: 44px;
+    background-color: #ffffff;
+    border: 0;  
+    margin-left: 65px; 
+    margin-top: -44px;
+    position: absolute;
+}
+
+input#search_{
+    font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+    font-size: 13pt;
+    font-weight: normal;
+}
+
+div#explorer{
+    display: block;
+    width: 745px;
+    height: 266px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+div#explorer div#most-used{
+    display: block;
+    width: 573px;
+    height: 266px;
+    margin: auto;
+}
+
+div#explorer div#most-used ul{
+    margin: auto;
+}
+
+div#explorer div#most-used ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    
+}
+
+
