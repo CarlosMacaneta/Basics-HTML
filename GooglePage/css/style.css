@@ -97,10 +97,17 @@ div#explorer div#most-used{
 div#explorer div#most-used ul li{
     display: inline-block;
     list-style: none;
-    padding: 20px;  
+    padding: 30px;  
 }
 
 div#explorer div#most-used ul li a{
+    display: block;
     text-decoration: none;
     text-align: center;
+}
+
+span{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
 }
