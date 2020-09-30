@@ -89,19 +89,18 @@ div#explorer{
 div#explorer div#most-used{
     display: block;
     width: 573px;
-    height: 266px;
+    height: 266;
     margin: auto;
 }
 
-div#explorer div#most-used ul{
-    margin: auto;
-}
 
 div#explorer div#most-used ul li{
     display: inline-block;
     list-style: none;
-    padding: 20px;
-    
+    padding: 20px;  
 }
 
-
+div#explorer div#most-used ul li a{
+    text-decoration: none;
+    text-align: center;
+}
