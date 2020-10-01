@@ -11,6 +11,7 @@
         <div id="logo">
             <div id="icon">
                 <h1>Google</h1>
+                <img id="google-logo" src="images/google-2015.svg" alt="google-logo">
             </div>
         </div>
 
@@ -20,25 +21,51 @@
                     <img src="images/search-icon.svg" alt="search" onclick="alert('Search icon was clicked')" />
                 </div>
 
-                <input type="search" name="search" id="search_" autocomplete="off" autofocus placeholder="Search Google or type a URL" />
-                <datalist id="datalist">
-                    <option value="Como instalar java no pc"></option>
-                </datalist>
-            </div>
-            
+                <form action="olamundo.html" method="get">
+                    <input type="search" name="search q" id="search_" autocomplete="off" autofocus spellcheck="false" aria-live="polite" placeholder="Search Google or type a URL" />
+                </form>
+
+                <div id="google-mic">
+                    <img src="images/google-mic-seeklogo.com.svg" alt="microphone" id="mic" onclick="alert('Voice icon was clicked')" title="Voice search">
+                </div>
+            </div>            
         </div>
 
         <div id="explorer">
             <div id="most-used">
                 <ul id="linha1">
-                    <li><a href="https://accounts.google.com"><img class="icon-explore" src="images/gmail.png" alt="gmail"><span>Gmail</span></a></li>
-                    <li><a href="https://youtube.com"><img class="icon-explore" src="images/youtube.png" alt="youtube"><span>YouTube</span></a></li>
-                    <li><a href="https://maps.com"><img class="icon-explore" src="images/google-maps.png" alt="google maps"><span>Maps</span></a></li>
-                    <li><a href="https://translate.google.com"><img class="icon-explore" src="images/google-translate.png" alt="translate"><span>Translate</span></a></li>
-                    <li><a href="https://github.com"><img class="icon-explore" src="images/github.png" alt="github"><span>GitHub</span></a></li>
-                    <li><a href="https://accounts.outlook.com"><img class="icon-explore" src="images/microsoft_outlook.png" alt="outlook mail"><span>Mail</span></a></li>
-                    <li><a href="https://bing.com"><img class="icon-explore" src="images/bing.png" alt="bing engine"><span>Bing</span></a></li>
-                    <li><a href="#"><img class="icon-explore" src="images/add.png" alt="add shortcut"><span>Add shortcut</span></a></li>
+                    <li title="Google mail - gmail">
+                        <img src="images/menu-vertical.png" alt="menu" class="menu" title="Edit shortcut" onclick="alert('Edit shortcut was clicked')"/>
+                        <a href="https://accounts.google.com" title="Google mail - gmail" draggable="false"><img class="icon-explore" src="images/gmail.png" alt="gmail"/><span>Gmail</span></a>
+                    </li>
+                    <li title="YouTube">
+                        <img src="images/menu-vertical.png" alt="menu" class="menu" title="Edit shortcut" onclick="alert('Edit shortcut was clicked')"/>
+                        <a href="https://youtube.com" title="YouTube" draggable="false"><img class="icon-explore" src="images/youtube.png" alt="youtube"/><span>YouTube</span></a>
+                    </li>
+                    <li title="Google Maps">
+                        <img src="images/menu-vertical.png" alt="menu" class="menu" title="Edit shortcut" onclick="alert('Edit shortcut was clicked')"/>
+                        <a href="https://maps.com" title="Google Maps" draggable="false"><img class="icon-explore" src="images/google-maps.png" alt="google maps"/><span>Maps</span></a>
+                    </li>
+                    <li title="Google Translate">
+                        <img src="images/menu-vertical.png" alt="menu" class="menu" title="Edit shortcut" onclick="alert('Edit shortcut was clicked')"/>
+                        <a href="https://translate.google.com" title="Google Translate" draggable="false"><img class="icon-explore" src="images/google-translate.png" alt="translate"/><span>Translate</span></a>
+                    </li>
+                    <li title="GitHub">
+                        <img src="images/menu-vertical.png" alt="menu" class="menu" title="Edit shortcut" onclick="alert('Edit shortcut was clicked')"/>
+                        <a href="https://github.com" title="GitHub" draggable="false"><img class="icon-explore" src="images/github.png" alt="github"/><span>GitHub</span></a>
+                    </li>
+                    <li title="outlook mail">
+                        <img src="images/menu-vertical.png" alt="menu" class="menu" title="Edit shortcut" onclick="alert('Edit shortcut was clicked')"/>
+                        <a href="https://accounts.outlook.com" title="outlook mail" draggable="false"><img class="icon-explore" src="images/microsoft_outlook.png" alt="outlook mail"/><span>Mail</span></a>
+                    </li>
+                    <li title="Bing">
+                        <img src="images/menu-vertical.png" alt="menu" class="menu" title="Edit shortcut" onclick="alert('Edit shortcut was clicked')"/>
+                        <a href="https://bing.com" title="Bing" draggable="false"><img class="icon-explore" src="images/bing.png" alt="bing engine"/><span>Bing</span></a>
+                    </li>
+                    <li title="Add shortcut">
+                        <img src="images/menu-vertical.png" alt="menu" id="as" title="Edit shortcut" onclick="alert('Edit shortcut was clicked')"/>
+                        <a><img class="icon-explore" src="images/add.png" alt="add shortcut" id="add-shortcut" title="Add shortcut" onclick="window.open('offline.html')"/><span onclick="window.open('offline.html')">Add shortcut</span></a>
+                    </li>
                 </ul>
             </div>
         </div>
