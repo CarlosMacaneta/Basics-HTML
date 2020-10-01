@@ -22,12 +22,19 @@ div#logo{
 
 div#logo div#icon{
     text-align: center;
-    margin-top: 99px;
+    margin-top: 20px;
 }
 
 div#logo div#icon h1{
     font-size: 72px;
     font-weight: normal;
+    visibility: hidden;
+}
+
+div#icon img#google-logo{
+    width: 272px;
+    height: 92px;
+    margin-top: -150px;
 }
 
 div#search{
@@ -58,24 +65,40 @@ div#search-icon{
 }
 
 div#search-icon img{
-    width: 24px;
+    display: block;
+    width: 20px;
     height: 44px;
 }
 
 input[type="search"]{ 
-    width: 431px;
+    width: 450px;
     height: 44px;
     background-color: #ffffff;
     border: 0;  
-    margin-left: 65px; 
+    margin-left: 55px; 
     margin-top: -44px;
     position: absolute;
+    outline: none;
 }
 
 input#search_{
     font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
     font-size: 13pt;
     font-weight: normal;
+}
+
+div#google-mic{
+    width: 15px;
+    height: 44px;
+    margin-left: 515px;
+    margin-top: -45px;
+}
+
+div#google-mic img#mic{
+    display: block;
+    width: 15px;
+    height: 44px;
+    cursor: pointer;
 }
 
 div#explorer{
@@ -89,24 +112,58 @@ div#explorer{
 div#explorer div#most-used{
     display: block;
     width: 573px;
-    height: 266;
+    height: 266px;
     margin: auto;
 }
 
 div#explorer div#most-used ul li{
     display: inline-block;
     list-style: none;
-    padding: 30px;  
+    width: 112px;
+    height: 112px; 
+    padding: 5px 5px 20px 5px;
 }
 
 div#explorer div#most-used ul li a{
     display: block;
+    width: 112px;
+    height: 112px;
     text-decoration: none;
     text-align: center;
+}
+
+img.menu{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 90px;
+    opacity: 0;
+}
+
+img#as{
+    visibility: hidden;
+}
+
+div#explorer div#most-used ul li:hover{
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .4);
+    opacity: 1;
+}
+
+div#explorer div#most-used ul li img:hover{
+    opacity: 1;
+}
+
+img#add-shortcut{
+    cursor: pointer;
 }
 
 span{
     display: block;
     text-align: center;
     margin-top: 10px;
+    color: #000000;
+    cursor: pointer;
 }
