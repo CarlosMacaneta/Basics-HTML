@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body{  
+    background-color: #ffffff;
+    font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+    font-size: 13pt;
+    font-weight: normal;
+    color: #333584;
+}
+
+div#interface{
+    display: block;
+    width: 800px;
+    height: 360px;
+    margin: 100px auto;
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, .5);
+    border: 1px solid  none;
+    border-radius: 10px; 
+    padding: 10px;
+}
+
+div.col5{
+    width: 320px;
+}
+
+div.col7{
+    width: 475px;
+}
+
+div.wallpaper{
+    float: right;
+}
+
+fieldset{
+    border: none;
+    padding: 10px;
+}
+
+fieldset legend{
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+input, label{
+    display: block;
+    width: 300px;
+    margin: 5px auto;
+}
+
+label.user, label.senha{
+    margin-top: 35px;
+}
+
+input[type="text"], input[type="password"]{
+    font-size: 13pt;
+    outline: none;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #333584;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+p#recuperar-senha{
+    font-size: 10pt;
+    text-align: right;   
+    margin-top: 25px;
+}
+
+p#recuperar-senha a{
+    color: #333584;
+}
+
+button[type="submit"]{
+    font-size: 13pt;
+    background-color: #333584;
+    color: #ffffff;
+    text-align: center;
+    outline: none;
+    border: 1px solid #DF8F3A;
+    border-radius: 10px;
+    width: 130px;
+    height: 30px;
+    margin-top: 25px;
+}
+
+input[type="text"]:hover, input[type="password"]:hover{
+    background-color: rgba(51, 53, 132,.4);
+    transition: all .5s;
+}
+
+button[type="submit"]:hover{
+    background-color: #2B2A5E;
+    transition: all .5s;
+}
