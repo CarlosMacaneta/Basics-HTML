@@ -8,13 +8,17 @@ body{
     color: #333584;
 }
 
-div#interface{
+div#interface-login{
     display: block;
     width: 800px;
     height: 360px;
     margin: 100px auto;
     box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, .5);
     border: 1px solid  none;
+    border-left: 2px solid #2B2A5E;
+    border-top: 2px solid #2B2A5E ;
+    border-right: 2px solid #DF8F3A;
+    border-bottom: 2px solid #DF8F3A;
     border-radius: 10px; 
     padding: 10px;
 }

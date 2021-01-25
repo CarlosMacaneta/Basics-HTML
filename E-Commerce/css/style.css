@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+body{
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.coluna{
+    padding: 0px 10px;
+}
+
+.col1{
+    width: 230px;
+}
+
+.col12{
+    width: 940px;
+}
+
+#conteudo-principal{
+    width: 940px;
+    margin: auto;
+}
+
+.busca, .menu-departamentos {
+    background-color: #dcdcdc;
+    float: left;
+}
+
+.menu-departamentos{
+    text-transform: uppercase;
+}
+
+.menu-departamentos li{
+    list-style: none;
+}
+
+.menu-departamentos a{
+    text-decoration: none;
+}
+
+.banner-destaque{
+    float: right; 
+}
+
+.painel{
+    width: 45px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.mais-vendidos{
+    clear: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.painel h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.painel li{
+    display: inline-block;
+    list-style: none;
+    margin: 2px;
+    width: 140px;
+    padding-bottom: 10px;
+}
+
+.painel a {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.novidades{
+    background-color: #f5dcdc;
+    float: left;
+}
+
+.mais-vendidos{
+    background-color: #dcdcf5;
+    float: right;
+}
+
+
+
